@@ -1,0 +1,129 @@
+# ============================================================
+# robots.txt - Search Engine & AI Crawler Policy
+# ============================================================
+# This file defines crawling permissions for search engines
+# and AI/LLM crawlers accessing this website.
+#
+# Website: B2bizz
+# Last Updated: 2025
+# Contact: hello@b2bizz.com
+# ============================================================
+
+# ------------------------------------------------------------
+# GLOBAL RULES (All Crawlers)
+# ------------------------------------------------------------
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /private/
+Disallow: /internal/
+Disallow: /api/
+Disallow: /auth/
+Disallow: /user/
+Disallow: /premium/
+Disallow: /checkout/
+
+# ------------------------------------------------------------
+# AI CRAWLER RULES (Training Restrictions)
+# ------------------------------------------------------------
+
+# OpenAI (GPTBot, ChatGPT)
+User-agent: GPTBot
+Allow: /
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /private/
+Disallow: /internal/
+Disallow: /api/
+Disallow: /auth/
+Disallow: /user/
+Disallow: /premium/
+Disallow: /checkout/
+
+# Anthropic (Claude)
+User-agent: Claude-Web
+Allow: /
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /private/
+Disallow: /internal/
+Disallow: /api/
+Disallow: /auth/
+Disallow: /user/
+Disallow: /premium/
+Disallow: /checkout/
+
+# Google AI (Google-Extended for Bard/Gemini training)
+User-agent: Google-Extended
+Disallow: /
+
+# Google Search (Standard indexing - allowed)
+User-agent: Googlebot
+Allow: /
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /private/
+Disallow: /internal/
+Disallow: /api/
+Disallow: /auth/
+Disallow: /user/
+Disallow: /premium/
+Disallow: /checkout/
+
+# Meta AI (FacebookBot)
+User-agent: FacebookBot
+Allow: /
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /private/
+Disallow: /internal/
+Disallow: /api/
+Disallow: /auth/
+Disallow: /user/
+Disallow: /premium/
+Disallow: /checkout/
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /private/
+Disallow: /internal/
+Disallow: /api/
+Disallow: /auth/
+Disallow: /user/
+Disallow: /premium/
+Disallow: /checkout/
+
+# Common Crawl (Dataset creation)
+User-agent: CCBot
+Disallow: /
+
+# Omgili (Content aggregation)
+User-agent: omgili
+Disallow: /
+
+# ------------------------------------------------------------
+# SITEMAP LOCATION
+# ------------------------------------------------------------
+Sitemap: https://b2bizz.com/sitemap.xml
+
+# ============================================================
+# POLICY NOTES
+# ============================================================
+# Copyright 2025 B2bizz. All rights reserved.
+#
+# This website allows:
+# - Search engine indexing for discovery
+# - AI retrieval for search results and answers
+# - Content summarization with attribution
+#
+# This website prohibits:
+# - AI model training on proprietary content
+# - Dataset creation for commercial purposes
+# - Unauthorized content reproduction
+#
+# For licensing or permissions: hello@b2bizz.com
+# ============================================================

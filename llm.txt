@@ -1,0 +1,109 @@
+# ============================================================
+# LLM.txt - AI Crawler Policy for B2bizz
+# ============================================================
+# This file defines permissions and restrictions for AI/LLM crawlers
+# accessing content on this website.
+#
+# Last Updated: 2025
+# Contact: hello@b2bizz.com
+# ============================================================
+
+# ------------------------------------------------------------
+# GLOBAL RULES (applies to all AI agents)
+# ------------------------------------------------------------
+User-Agent: *
+
+# Allow AI to read and retrieve public content
+Allow: /
+
+# Allow AI to generate summaries, snippets, and answers
+Allow-Retrieval: /
+
+# Disallow AI model training on proprietary content
+Disallow-Training: /
+
+# Disallow access to private and internal routes
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /private/
+Disallow: /internal/
+Disallow: /api/
+Disallow: /auth/
+Disallow: /user/
+Disallow: /premium/
+Disallow: /checkout/
+
+# Disallow training on sensitive routes
+Disallow-Training: /admin/
+Disallow-Training: /dashboard/
+Disallow-Training: /private/
+Disallow-Training: /internal/
+Disallow-Training: /api/
+Disallow-Training: /auth/
+Disallow-Training: /user/
+Disallow-Training: /premium/
+Disallow-Training: /checkout/
+
+# ------------------------------------------------------------
+# SPECIFIC AI BOT RULES (explicit declarations)
+# ------------------------------------------------------------
+
+# OpenAI (GPT, ChatGPT)
+User-Agent: GPTBot
+Allow: /
+Allow-Retrieval: /
+Disallow-Training: /
+
+# Anthropic (Claude)
+User-Agent: Claude-Web
+Allow: /
+Allow-Retrieval: /
+Disallow-Training: /
+
+# Google AI (Gemini, Bard)
+User-Agent: Google-Extended
+Allow: /
+Allow-Retrieval: /
+Disallow-Training: /
+
+# Meta AI (Llama)
+User-Agent: FacebookBot
+Allow: /
+Allow-Retrieval: /
+Disallow-Training: /
+
+# Perplexity AI
+User-Agent: PerplexityBot
+Allow: /
+Allow-Retrieval: /
+Disallow-Training: /
+
+# Common Crawl
+User-Agent: CCBot
+Allow: /
+Disallow-Training: /
+
+# ------------------------------------------------------------
+# COPYRIGHT & OWNERSHIP
+# ------------------------------------------------------------
+# Copyright: 2025 B2bizz. All rights reserved.
+#
+# All content on this website is proprietary and protected by copyright law.
+# AI systems may:
+# - Read and index public pages for search purposes
+# - Generate summaries, snippets, and answers with proper attribution
+# - Retrieve content for Retrieval-Augmented Generation (RAG)
+#
+# AI systems may NOT:
+# - Use content for training language models or AI systems
+# - Create derivative datasets from this content
+# - Reproduce content without attribution
+# - Access private, internal, or restricted routes
+#
+# For licensing inquiries or permissions beyond these terms,
+# contact: hello@b2bizz.com
+# ------------------------------------------------------------
+
+# ============================================================
+# END OF LLM.txt
+# ============================================================
