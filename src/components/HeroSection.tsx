@@ -35,12 +35,12 @@ export const Hero: React.FC = () => {
 
 export const HeroFeaturesStrip: React.FC = () => {
   const features = [
-    { icon: <Headset size={24} />, text: "24/7 support and optimization" },
-    { icon: <TrendingUp size={24} />, text: "Proven ROI on all solutions" },
-    { icon: <Users size={24} />, text: "Dedicated client success managers" },
-    { icon: <MonitorSmartphone size={24} />, text: "Real-time performance monitoring" },
-    { icon: <Lock size={24} />, text: "Security-first approach" },
-    { icon: <ShieldCheck size={24} />, text: "Multichannel support" },
+    { id: 6, iconPath: "/image/hero-icon-6.png", text: "24/7 support and optimization" },
+    { id: 1, iconPath: "/image/hero-icon-1.png", text: "Proven ROI on all solutions" },
+    { id: 2, iconPath: "/image/hero-icon-2.png", text: "Dedicated client success managers" },
+    { id: 3, iconPath: "/image/hero-icon-3.png", text: "Real-time performance monitoring" },
+    { id: 4, iconPath: "/image/hero-icon-4.png", text: "Security-first approach" },
+    { id: 5, iconPath: "/image/hero-icon-5.png", text: "Multichannel support" },
   ];
 
   // Tripling for smoother infinite loop
@@ -52,8 +52,12 @@ export const HeroFeaturesStrip: React.FC = () => {
         {/* Using the ping-pong animation defined in CSS: Left to Right (60s) then Right to Left (60s) */}
         <div className="flex items-center gap-[60px] md:gap-[80px] lg:gap-[100px] animate-marquee-pingpong min-w-full px-4">
           {loopFeatures.map((item, idx) => (
-            <div key={idx} className="flex items-center gap-3 opacity-80 hover:opacity-100 transition-opacity">
-              <span className="text-secondary">{item.icon}</span>
+            <div key={`feature-${item.id}-${idx}`} className="flex items-center gap-3 opacity-80 hover:opacity-100 transition-opacity">
+              <img
+                src={`${item.iconPath}?v=${item.id}`}
+                alt={item.text}
+                className="w-[20px] h-[20px] md:w-[26px] md:h-[26px] opacity-100"
+              />
               <span className="text-[16px] lg:text-[17px] font-medium text-secondary">{item.text}</span>
             </div>
           ))}
