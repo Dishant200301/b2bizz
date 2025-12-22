@@ -17,7 +17,7 @@ const BlogDetails: React.FC = () => {
     return (
         <div className="w-full bg-background min-h-screen font-inter p-2 text-secondary">
             {/* --- HERO SECTION --- */}
-            <section className="relative bg-[#161A18] rounded-[30px] lg:m-[10px] px-0 md:px-10 lg:px-[40px] xl:px-[60px] py-12 text-[#F3FFC9]">
+            <section className="relative bg-[#161A18] rounded-[30px] lg:m-0 px-0 md:px-10 lg:px-[40px] xl:px-[60px] py-12 text-[#F3FFC9]">
                 <div className="bg-[#161A18] rounded-[30px] p-6 md:p-10 lg:p-[60px] flex flex-col items-center text-center">
                     {/* Meta */}
                     <div className="flex flex-col md:flex-row items-center gap-4 mb-8">

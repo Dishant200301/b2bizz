@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+import { motion } from 'framer-motion';
 import { Layout, Cloud, Globe2, Network, PieChart } from 'lucide-react';
 
 const services = [
@@ -24,7 +25,7 @@ const services = [
   {
     id: 'strategy',
     title: 'Enterprise digital strategy',
-    icon: <img src="/image/home-service-icon-3.png" className="w-[24px] h-[24px]"/>,
+    icon: <img src="/image/home-service-icon-3.png" className="w-[24px] h-[24px]" />,
     description: 'Comprehensive digital transformation roadmaps for large-scale enterprises.',
     tags: ['Digital Transformation', 'Consulting'],
     image: '/image/service-3.png',
@@ -57,7 +58,13 @@ export const ServicesOverview: React.FC = () => {
   return (
     <section className="md:py-20 px-4 md:px-16 bg-black">
       <div className="max-w-[1500px] mx-auto">
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-12 gap-6">
+        <motion.div
+          className="flex flex-col md:flex-row justify-between items-start md:items-center mb-12 gap-6"
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.3 }}
+          transition={{ duration: 0.6 }}
+        >
           <h3 className="text-[28px] md:text-[42px] text-primary font-medium max-w-[620px] leading-tight">
             Expert services that move your business forward
           </h3>
@@ -67,20 +74,44 @@ export const ServicesOverview: React.FC = () => {
           >
             Get started
           </Link>
-        </div>
+        </motion.div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-[40px] lg:gap-[50px]">
+        <motion.div
+          className="grid grid-cols-1 lg:grid-cols-2 gap-[40px] lg:gap-[50px]"
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.2 }}
+          variants={{
+            hidden: { opacity: 0 },
+            visible: {
+              opacity: 1,
+              transition: {
+                staggerChildren: 0.1
+              }
+            }
+          }}
+        >
           {/* Left: Tablist */}
-          <div className="flex flex-col gap-5">
-            {services.map((service) => {
+          <motion.div
+            className="flex flex-col gap-5"
+            variants={{
+              hidden: { opacity: 0, x: -30 },
+              visible: { opacity: 1, x: 0, transition: { duration: 0.5 } }
+            }}
+          >
+            {services.map((service, index) => {
               const isActive = activeTab.id === service.id;
               return (
-                <div
+                <motion.div
                   key={service.id}
                   onClick={() => setActiveTab(service)}
                   onDoubleClick={() => navigate(`/services/${service.id}`)}
                   className={`cursor-pointer rounded-[20px] px-[20px] py-[20px] transition-all duration-300 flex flex-col justify-center ${isActive ? 'bg-[#161A18]' : 'bg-[#161A18] h-[66px] hover:bg-surface/80'
                     }`}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: index * 0.1, duration: 0.4 }}
                 >
                   <div className="flex items-center gap-4">
                     <span className={`${isActive ? 'text-primary' : 'text-icon'}`}>{service.icon}</span>
@@ -98,13 +129,19 @@ export const ServicesOverview: React.FC = () => {
                       </div>
                     </div>
                   )}
-                </div>
+                </motion.div>
               );
             })}
-          </div>
+          </motion.div>
 
           {/* Right: Preview Panel */}
-          <div className="md:bg-[#161A18] rounded-[20px] p-0 h-full min-h-[350px] md:min-h-[500px] flex flex-col relative overflow-hidden">
+          <motion.div
+            className="md:bg-[#161A18] rounded-[20px] p-0 h-full min-h-[350px] md:min-h-[500px] flex flex-col relative overflow-hidden"
+            variants={{
+              hidden: { opacity: 0, x: 30 },
+              visible: { opacity: 1, x: 0, transition: { duration: 0.5, delay: 0.2 } }
+            }}
+          >
             {/* Background blurred image simulation */}
             <div className="absolute inset-0 md:bg-gradient-to-br from-green-900/20 to-black/80 z-0 hiiden sm:block"></div>
 
@@ -140,10 +177,11 @@ export const ServicesOverview: React.FC = () => {
                 <img src={activeTab.image} alt="Preview" className="absolute inset-0 w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
               </div>
             </div>
-          </div>
-        </div>
+          </motion.div>
+        </motion.div>
       </div>
-    </section>
+    
+    </section >
   );
 };
 
@@ -184,6 +222,6 @@ export const PerformanceStats: React.FC = () => {
         </div>
       </div>
     </section>
-    
+
   );
 };

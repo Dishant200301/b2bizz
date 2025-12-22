@@ -24,9 +24,9 @@ export const Hero: React.FC = () => {
             Built for B2B,<br /> focused on results.
           </h1>
 
-          <button className="bg-primary text-surface px-4 py-3 w-[70%] md:px-7 md:py-3.5 rounded-[12px] md:rounded-[16px] text-[15px] lg:text-[17px] font-medium hover:translate-y-[-2px] hover:bg-[#e2efb7] transition-all duration-300 md:w-auto mt-4 md:mt-0">
+          <a href="/services" className="bg-primary text-surface px-4 py-3 w-[70%] md:px-7 md:py-3.5 rounded-[12px] md:rounded-[16px] text-[15px] lg:text-[17px] font-medium hover:translate-y-[-2px] hover:bg-[#e2efb7] transition-all duration-300 md:w-auto mt-4 md:mt-0">
             Explore our services
-          </button>
+          </a>
         </div>
       </div>
     </section>

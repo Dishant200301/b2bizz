@@ -11,7 +11,7 @@ const CaseStudyDetails: React.FC = () => {
     return (
         <div className="w-full bg-[#000000] p-2  min-h-screen text-[#4A4A4A]">
             {/* HERO SECTION */}
-            <section className="relative  mx-auto  bg-[#161A18] rounded-[30px] lg:m-[10px] px-5 md:px-10 lg:px-[40px] xl:px-0 py-12 text-[#F3FFC9]">
+            <section className="relative  mx-auto  bg-[#161A18] rounded-[30px] lg:m-0 px-5 md:px-10 lg:px-[40px] xl:px-0 py-12 text-[#F3FFC9]">
                 <div className=" max-w-[1500px] mx-auto rounded-[20px] md:rounded-[24px] p-2 md:py-8 md:px-0 lg:p-10">
                     <div className="mb-5 md:mb-6 flex items-center gap-2 text-[10px] md:text-[14px] text-[#A9AD9B]">
                         <Link to="/" className="hover:text-[#F3FFC9] transition-colors">Home</Link>

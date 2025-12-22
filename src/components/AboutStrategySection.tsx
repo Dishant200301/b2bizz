@@ -64,7 +64,7 @@ const AboutStrategySection: React.FC = () => {
                     <p
                         className="
               hidden lg:block
-              text-[#9CA3AF]
+              text-[#A9AD9B]
               text-[15px] md:text-[16px]
               leading-relaxed
               max-w-[520px]

@@ -145,7 +145,7 @@ export const Navbar: React.FC = () => {
             flex items-center justify-center
             border border-[#F3FFC9]
             rounded-[30px]
-            mt-5 md:mt-10
+            mt-5 md:mt-10 lg:mt-4
             bg-transparent
             text-[#F3FFC9]
             text-[16.7px] font-medium

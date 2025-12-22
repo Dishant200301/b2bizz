@@ -5,7 +5,7 @@ const Privacy: React.FC = () => {
     return (
         <div className="w-full  min-h-screen font-inter text-secondary">
             {/* --- HERO SECTION --- */}
-            <section className="pt-[70px] md:m-2 md:rounded-[24px] md:pt-[0px] pb-0 md:pb-0 px-4 md:px-0 lg:px-[0px] xl:px-[0px]">
+            <section className="pt-[8px] md:m-2 md:rounded-[24px] md:pt-[0px] pb-0 md:pb-0 px-2 md:px-0 lg:px-[0px] xl:px-[0px]">
                 <div className=" rounded-[20px] md:rounded-[24px] h-[280px] md:h-[320px] lg:h-[360px] relative overflow-hidden flex flex-col items-center justify-center text-center p-6 md:p-8">
                     {/* Background Image with Blur */}
                     <div className="absolute inset-0 z-0">
