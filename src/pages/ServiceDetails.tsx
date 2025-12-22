@@ -6,7 +6,7 @@ import TestimonialSection from '../components/TestimonialSection';
 import TestimonialVideo from '../components/TestimonialVideo';
 import PricingSection from '../components/PricingSection';
 import TestimonialCard from '../components/TestimonialSection1';
-import ServicesSection from '../components/ServiceSEction';
+import ServicesSection from '../components/ServiceSection';
 import { CTASection } from '../components/CTASection';
 
 const CaseStudyDetails: React.FC = () => {
