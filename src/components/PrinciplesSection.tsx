@@ -63,14 +63,14 @@ const PrinciplesSection = () => {
         {/* ROW 1 → 3 columns */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-[30px] mb-[30px]">
           {firstRow.map((item, i) => (
-            <Card key={i} {...item} />
+            <Card key={i} title={item.title} text={item.text} />
           ))}
         </div>
 
         {/* ROW 2 → 50 / 50 */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-[30px]">
           {secondRow.map((item, i) => (
-            <Card key={i} {...item} />
+            <Card key={i} title={item.title} text={item.text} />
           ))}
         </div>
       </div>

@@ -1,11 +1,11 @@
 # ============================================================
-# LLM.txt - AI Crawler Policy for B2bizz
+# LLM.txt - AI Crawler Policy for B2zz
 # ============================================================
 # This file defines permissions and restrictions for AI/LLM crawlers
 # accessing content on this website.
 #
 # Last Updated: 2025
-# Contact: hello@b2bizz.com
+# Contact: hello@b2zz.com
 # ============================================================
 
 # ------------------------------------------------------------
@@ -86,7 +86,7 @@ Disallow-Training: /
 # ------------------------------------------------------------
 # COPYRIGHT & OWNERSHIP
 # ------------------------------------------------------------
-# Copyright: 2025 B2bizz. All rights reserved.
+# Copyright: 2025 B2zz. All rights reserved.
 #
 # All content on this website is proprietary and protected by copyright law.
 # AI systems may:
@@ -101,7 +101,7 @@ Disallow-Training: /
 # - Access private, internal, or restricted routes
 #
 # For licensing inquiries or permissions beyond these terms,
-# contact: hello@b2bizz.com
+# contact: hello@b2zz.com
 # ------------------------------------------------------------
 
 # ============================================================

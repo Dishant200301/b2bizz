@@ -9,9 +9,9 @@ import TestimonialCard from '../components/TestimonialSection1';
 import ServicesSection from '../components/ServiceSection';
 import { CTASection } from '../components/CTASection';
 
-const CaseStudyDetails: React.FC = () => {
+const ServiceDetails: React.FC = () => {
     const { id } = useParams<{ id: string }>();
-    const data = serviceDetails[id || 'transedge'] || serviceDetails['default'];
+    const data = serviceDetails[id || 'web'] || serviceDetails['default'];
 
     return (
         <div className="w-full  min-h-screen  text-[#B8BDB5]">
@@ -25,7 +25,7 @@ const CaseStudyDetails: React.FC = () => {
                         </h1>
 
                         <p className="text-[#A9AD9B] text-[14px] md:text-[15px] lg:text-[16px] leading-[1.6] mb-6 md:mb-8 max-w-[480px]">
-                            Conversion-focused websites are built for speed, trust, and lead generation.
+                            {data.subtitle}
                         </p>
 
                         <Link
@@ -67,38 +67,22 @@ const CaseStudyDetails: React.FC = () => {
                             {/* RIGHT CONTENT */}
                             <div className="flex-1 w-full lg:w-auto">
                                 <h2 className="text-[22px] md:text-[34px] lg:text-[30px] xl:text-[34px] font-normal text-[#F3FFC9] leading-[1.15] mb-5 md:mb-6 lg:mb-7">
-                                    Website design isn't just about looks — it's about building trust and driving results.
+                                    {data.descriptionTitle}
                                 </h2>
 
                                 <p className="text-[14px] md:text-[15px] lg:text-[14px] leading-[1.65] text-[#A0A0A0] mb-6 md:mb-7 lg:mb-8 max-w-[560px]">
-                                    In the B2B world, your website is often the first and most critical touchpoint. If it's slow, outdated, or unclear, you're losing leads. We build high-performing websites that speak directly to your audience, convert better, and scale with your business.
+                                    {data.description}
                                 </p>
 
                                 <ul className="space-y-3 md:space-y-3.5 mb-8 md:mb-9 lg:mb-10">
-                                    <li className="flex items-start gap-3">
-                                        <div className="w-1 h-1 bg-white rounded-full mt-2.5 shrink-0"></div>
-                                        <span className="text-[14px] md:text-[15px] lg:text-[16px] text-[#F3FFC9] leading-[1.5]">
-                                            Communicate value clearly and quickly
-                                        </span>
-                                    </li>
-                                    <li className="flex items-start gap-3">
-                                        <div className="w-1 h-1 bg-white rounded-full mt-2.5 shrink-0"></div>
-                                        <span className="text-[14px] md:text-[15px] lg:text-[16px] text-[#F3FFC9] leading-[1.5]">
-                                            Improve lead generation with smart UX
-                                        </span>
-                                    </li>
-                                    <li className="flex items-start gap-3">
-                                        <div className="w-1 h-1 bg-white rounded-full mt-2.5 shrink-0"></div>
-                                        <span className="text-[14px] md:text-[15px] lg:text-[16px] text-[#F3FFC9] leading-[1.5]">
-                                            Enhance credibility and professionalism
-                                        </span>
-                                    </li>
-                                    <li className="flex items-start gap-3">
-                                        <div className="w-1 h-1 bg-white rounded-full mt-2.5 shrink-0"></div>
-                                        <span className="text-[14px] md:text-[15px] lg:text-[16px] text-[#F3FFC9] leading-[1.5]">
-                                            Make updates easily with a user-friendly CMS
-                                        </span>
-                                    </li>
+                                    {data.benefits.map((benefit, index) => (
+                                        <li key={index} className="flex items-start gap-3">
+                                            <div className="w-1 h-1 bg-white rounded-full mt-2.5 shrink-0"></div>
+                                            <span className="text-[14px] md:text-[15px] lg:text-[16px] text-[#F3FFC9] leading-normal">
+                                                {benefit}
+                                            </span>
+                                        </li>
+                                    ))}
                                 </ul>
 
                                 <Link
@@ -129,4 +113,4 @@ const CaseStudyDetails: React.FC = () => {
     );
 };
 
-export default CaseStudyDetails;
+export default ServiceDetails;

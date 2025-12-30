@@ -31,7 +31,7 @@ const TestimonialSection = () => {
               {/* Text */}
               <div className="flex flex-col">
                 <p className="max-w-[1061px] text-[#F3FFC9] font-inter font-normal text-[16px] md:text-[22.3px] leading-[22px] md:leading-[34px]">
-                  Working with B2bizz was a game-changer for our B2B strategy.
+                  Working with B2zz was a game-changer for our B2B strategy.
                   Their team didn’t just offer advice — they became an extension
                   of our leadership. Their insights, professionalism, and
                   tailored approach helped us unlock new growth and streamline

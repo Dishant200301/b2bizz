@@ -6,7 +6,7 @@
 
   <!-- Homepage -->
   <url>
-    <loc>https://b2bizz.com/</loc>
+    <loc>https://b2zz.com/</loc>
     <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -14,7 +14,7 @@
 
   <!-- About Page -->
   <url>
-    <loc>https://b2bizz.com/about</loc>
+    <loc>https://b2zz.com/about</loc>
     <lastmod>2025-12-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -22,7 +22,7 @@
 
   <!-- Services Page -->
   <url>
-    <loc>https://b2bizz.com/services</loc>
+    <loc>https://b2zz.com/services</loc>
     <lastmod>2025-12-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -30,42 +30,42 @@
 
   <!-- Service Details Pages -->
   <url>
-    <loc>https://b2bizz.com/services/digital-marketing</loc>
+    <loc>https://b2zz.com/services/digital-marketing</loc>
     <lastmod>2025-12-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://b2bizz.com/services/web-development</loc>
+    <loc>https://b2zz.com/services/web-development</loc>
     <lastmod>2025-12-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://b2bizz.com/services/seo-optimization</loc>
+    <loc>https://b2zz.com/services/seo-optimization</loc>
     <lastmod>2025-12-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://b2bizz.com/services/content-marketing</loc>
+    <loc>https://b2zz.com/services/content-marketing</loc>
     <lastmod>2025-12-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://b2bizz.com/services/social-media</loc>
+    <loc>https://b2zz.com/services/social-media</loc>
     <lastmod>2025-12-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://b2bizz.com/services/email-marketing</loc>
+    <loc>https://b2zz.com/services/email-marketing</loc>
     <lastmod>2025-12-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -73,7 +73,7 @@
 
   <!-- Case Studies Page -->
   <url>
-    <loc>https://b2bizz.com/case-studies</loc>
+    <loc>https://b2zz.com/case-studies</loc>
     <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -81,35 +81,35 @@
 
   <!-- Case Study Details Pages -->
   <url>
-    <loc>https://b2bizz.com/case-studies/transedge</loc>
+    <loc>https://b2zz.com/case-studies/transedge</loc>
     <lastmod>2025-12-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://b2bizz.com/case-studies/saas-fintech</loc>
+    <loc>https://b2zz.com/case-studies/saas-fintech</loc>
     <lastmod>2025-12-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://b2bizz.com/case-studies/manufacturing</loc>
+    <loc>https://b2zz.com/case-studies/manufacturing</loc>
     <lastmod>2025-12-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://b2bizz.com/case-studies/consulting</loc>
+    <loc>https://b2zz.com/case-studies/consulting</loc>
     <lastmod>2025-12-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://b2bizz.com/case-studies/saas-product</loc>
+    <loc>https://b2zz.com/case-studies/saas-product</loc>
     <lastmod>2025-12-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -117,7 +117,7 @@
 
   <!-- Blog Page -->
   <url>
-    <loc>https://b2bizz.com/blog</loc>
+    <loc>https://b2zz.com/blog</loc>
     <lastmod>2025-12-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -125,42 +125,42 @@
 
   <!-- Blog Post Pages -->
   <url>
-    <loc>https://b2bizz.com/blog/Best-practices-for-keeping-your-data-secure</loc>
+    <loc>https://b2zz.com/blog/Best-practices-for-keeping-your-data-secure</loc>
     <lastmod>2025-12-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://b2bizz.com/blog/Unlocking-the-power-of-data-analytics</loc>
+    <loc>https://b2zz.com/blog/Unlocking-the-power-of-data-analytics</loc>
     <lastmod>2025-12-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://b2bizz.com/blog/The-future-of-cloud-computing</loc>
+    <loc>https://b2zz.com/blog/The-future-of-cloud-computing</loc>
     <lastmod>2025-12-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://b2bizz.com/blog/Building-scalable-web-applications</loc>
+    <loc>https://b2zz.com/blog/Building-scalable-web-applications</loc>
     <lastmod>2025-12-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://b2bizz.com/blog/Mastering-digital-marketing-strategies</loc>
+    <loc>https://b2zz.com/blog/Mastering-digital-marketing-strategies</loc>
     <lastmod>2025-12-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
 
   <url>
-    <loc>https://b2bizz.com/blog/AI-and-machine-learning-trends</loc>
+    <loc>https://b2zz.com/blog/AI-and-machine-learning-trends</loc>
     <lastmod>2025-12-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -168,7 +168,7 @@
 
   <!-- Contact Page -->
   <url>
-    <loc>https://b2bizz.com/contact</loc>
+    <loc>https://b2zz.com/contact</loc>
     <lastmod>2025-12-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -176,7 +176,7 @@
 
   <!-- Privacy Policy Page -->
   <url>
-    <loc>https://b2bizz.com/privacy</loc>
+    <loc>https://b2zz.com/privacy</loc>
     <lastmod>2025-12-22</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>

@@ -16,7 +16,7 @@ const AboutHero = () => (
   <section className="relative pt-[60px] pb-20 px-5 md:px-10 lg:px-[100px] xl:px-[220px]">
     <div className="text-center mb-[60px]">
       <h1 className="text-[40px] md:text-[56px] font-medium leading-[1.2] text-primary mb-6 animate-fade-in-up">
-        Get to know B2bizz B2B consulting
+        Get to know B2zz B2B consulting
       </h1>
       <p className="text-secondary text-[17px] max-w-[660px] mx-auto leading-[1.5] mb-10">
         We’re your long-term growth partners. Discover who we are and how we help B2B companies unlock their full potential.
@@ -281,11 +281,11 @@ const About: React.FC = () => {
   return (
     <div className="w-full bg-background min-h-screen overflow-hidden">
       <Helmet>
-        <title>About Us | B2bizz</title>
-        <meta name="description" content="Learn about B2bizz's mission, vision, and commitment to delivering exceptional B2B consulting services. Meet our expert team and discover our values." />
-        <meta name="keywords" content="about B2bizz, company mission, B2B experts, consulting team, our values" />
-        <meta property="og:title" content="About Us | B2bizz" />
-        <meta property="og:description" content="Learn about B2bizz's mission, vision, and commitment to delivering exceptional B2B consulting services." />
+        <title>About Us | B2zz</title>
+        <meta name="description" content="Learn about B2zz's mission, vision, and commitment to delivering exceptional B2B consulting services. Meet our expert team and discover our values." />
+        <meta name="keywords" content="about B2zz, company mission, B2B experts, consulting team, our values" />
+        <meta property="og:title" content="About Us | B2zz" />
+        <meta property="og:description" content="Learn about B2zz's mission, vision, and commitment to delivering exceptional B2B consulting services." />
         <meta property="og:type" content="website" />
       </Helmet>
 

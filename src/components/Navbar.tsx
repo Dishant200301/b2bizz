@@ -14,7 +14,7 @@ const Logo = () => (
             </svg>
         </div>
         <span className="text-[30px] md:text-[22px] lg:text-[28px] font-normal text-[#F3FFC9]">
-            B2bizz
+            B2zz
         </span>
     </div>
 );

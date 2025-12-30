@@ -43,7 +43,7 @@ const WhyChooseUs: React.FC = () => {
             "
           >
             Choosing the right consulting partner can define the future of your
-            business. At B2bizz, we don’t just advise — we collaborate, innovate,
+            business. At B2zz, we don’t just advise — we collaborate, innovate,
             and deliver.
           </p>
         </div>
@@ -154,7 +154,7 @@ const WhyChooseUs: React.FC = () => {
                   mb-[18px]
                 "
               >
-                Working with B2bizz was a game-changer for our B2B strategy. Their
+                Working with B2zz was a game-changer for our B2B strategy. Their
                 team didn’t just offer advice — they became an extension of our
                 leadership. Their insights, professionalism, and tailored
                 approach helped us unlock new growth and streamline our

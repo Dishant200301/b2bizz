@@ -4,9 +4,9 @@
 # This file defines crawling permissions for search engines
 # and AI/LLM crawlers accessing this website.
 #
-# Website: B2bizz
+# Website: B2zz
 # Last Updated: 2025
-# Contact: hello@b2bizz.com
+# Contact: hello@b2zz.com
 # ============================================================
 
 # ------------------------------------------------------------
@@ -108,12 +108,12 @@ Disallow: /
 # ------------------------------------------------------------
 # SITEMAP LOCATION
 # ------------------------------------------------------------
-Sitemap: https://b2bizz.com/sitemap.xml
+Sitemap: https://b2zz.com/sitemap.xml
 
 # ============================================================
 # POLICY NOTES
 # ============================================================
-# Copyright 2025 B2bizz. All rights reserved.
+# Copyright 2025 B2zz. All rights reserved.
 #
 # This website allows:
 # - Search engine indexing for discovery
@@ -125,5 +125,5 @@ Sitemap: https://b2bizz.com/sitemap.xml
 # - Dataset creation for commercial purposes
 # - Unauthorized content reproduction
 #
-# For licensing or permissions: hello@b2bizz.com
+# For licensing or permissions: hello@b2zz.com
 # ============================================================

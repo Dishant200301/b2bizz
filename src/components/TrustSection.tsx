@@ -147,7 +147,7 @@ export const WhyChooseUs: React.FC = () => {
 
           <div className="absolute top-[160px] md:top-[100px] left-[20px] md:left-[230px] pr-5 md:pr-10">
             <p className="text-primary text-[20px] md:text-[23px] leading-[34px] max-w-[830px]">
-              "Working with B2bizz was a game-changer for our B2B strategy. Their insights and professional approach helped us unlock new growth."
+              "Working with B2zz was a game-changer for our B2B strategy. Their insights and professional approach helped us unlock new growth."
             </p>
             <div className="mt-8 md:mt-[60px]">
               <p className="text-primary text-[18px]">Orion Blake, COO</p>

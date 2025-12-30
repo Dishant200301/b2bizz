@@ -85,6 +85,69 @@ export const serviceDetails: Record<string, ServiceDetail> = {
       ]
     }
   },
+  "digital-marketing": {
+    id: "digital-marketing",
+    title: "Digital Marketing Strategies",
+    subtitle: "Data-driven marketing to grow your B2B presence.",
+    heroImage: "/image/service-1.png",
+    detailImage: "/image/service-details.png",
+    descriptionTitle: "Marketing that drives real growth.",
+    description: "We create comprehensive digital marketing strategies that align with your business goals, ensuring you reach the right audience at the right time.",
+    benefits: [
+      "Targeted audience reach",
+      "Improved brand visibility",
+      "Higher conversion rates",
+      "Measurable ROI tracking"
+    ],
+    pricing: {
+      monthly: [
+        {
+          name: "Starter",
+          price: "$1,200",
+          description: "Essential marketing for small teams.",
+          features: ["Social media management", "Monthly newsletter", "Basic SEO"],
+          cta: "Get started"
+        },
+        {
+          name: "Growth",
+          price: "$2,800",
+          description: "Accelerate your lead generation.",
+          features: ["PPC management", "Content creation (4 posts/mo)", "Advanced SEO", "Weekly reporting"],
+          cta: "Start growing"
+        },
+        {
+          name: "Enterprise",
+          price: "$4,500",
+          description: "Full-scale marketing department.",
+          features: ["Omnichannel strategy", "Video marketing", "PR management", "Dedicated account manager"],
+          cta: "Get started"
+        }
+      ],
+      yearly: [
+        {
+          name: "Starter",
+          price: "$12,000",
+          description: "Essential marketing for small teams.",
+          features: ["Social media management", "Monthly newsletter", "Basic SEO"],
+          cta: "Get started"
+        },
+        {
+          name: "Growth",
+          price: "$28,000",
+          description: "Accelerate your lead generation.",
+          features: ["PPC management", "Content creation (4 posts/mo)", "Advanced SEO", "Weekly reporting"],
+          cta: "Start growing"
+        },
+        {
+          name: "Enterprise",
+          price: "$45,000",
+          description: "Full-scale marketing department.",
+          features: ["Omnichannel strategy", "Video marketing", "PR management", "Dedicated account manager"],
+          cta: "Get started"
+        }
+      ]
+    }
+  },
   // Default data for other services to avoid empty pages
   "default": {
     id: "default",

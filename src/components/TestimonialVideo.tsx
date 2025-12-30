@@ -41,7 +41,7 @@ const TestimonialVideo: React.FC = () => {
                 sm:leading-[28px]
               "
             >
-              Working with B2bizz was a game-changer for our B2B strategy.
+              Working with B2zz was a game-changer for our B2B strategy.
               Their team didn’t just offer advice — they became an extension
               of our leadership. Their insights, professionalism, and tailored
               approach helped us unlock new growth and streamline our operations.

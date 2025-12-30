@@ -7,7 +7,7 @@ const AboutHeroSection: React.FC = () => {
       {/* ================= TEXT BLOCK ================= */}
       <div className="max-w-[934px] mx-auto text-center xl:mt-[100px]">
         <h1 className="font-medium mt-10 text-[30px] md:text-[46px] lg:text-[55.8px] leading-[1.4]">
-          Get to know B2bizz B2B consulting
+          Get to know B2zz B2B consulting
         </h1>
 
         <p className="mt-6 mb-10 text-[#A9AD9B] text-[15.5px] md:text-[16.9px] leading-[25px] max-w-[654px] mx-auto">
